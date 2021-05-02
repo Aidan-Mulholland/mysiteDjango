@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'nav.css' %}">
+        <link rel="stylesheet" href="{% static 'index.css' %}">
         <title>Django Project</title>
     </head>
     <body>
-        <h1>Home Page</h1>
+        <div id=nav>
+            <h1>Django Project</h1>
+        </div>
         <p>This is a test paragraph</p>
     </body>
 </html>
